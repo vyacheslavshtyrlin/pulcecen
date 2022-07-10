@@ -17,13 +17,11 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-};
+}
 
 
 .promotion__button :last-of-type {
   margin-bottom: 0px;
-};
+}
 
-.promotion__button :hover {
-  background: white;
-};
+
