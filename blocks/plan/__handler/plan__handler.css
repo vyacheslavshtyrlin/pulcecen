@@ -1,0 +1,11 @@
+.plan__handler {
+  margin: auto;
+
+}
+
+@media screen and (max-width: 586px) {
+  .plan__handler {
+    display: none;
+
+  }
+}

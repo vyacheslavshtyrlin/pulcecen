@@ -1,0 +1,22 @@
+.promotion__list_item {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #8F9EB2;
+  display: flex;
+}
+
+.promotion__list_item:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 586px) {
+  .promotion__list_item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+  }
+}

@@ -1,0 +1,16 @@
+.article {
+  width: 1520px;
+  margin-top: 48px;
+  display: none;
+  position: relative;
+}
+
+@media screen and (max-width: 586px) {
+  .article {
+    width: 100%;
+
+
+
+
+  }
+}

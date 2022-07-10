@@ -1,0 +1,50 @@
+.advice {
+  display: grid;
+  grid-template-columns: 170px auto;
+  max-width: 1069px;
+  background: #FFFFFF;
+  border: 1px solid #F2F4F7;
+  box-shadow: 0px 4px 4px rgb(68 118 145 / 16%);
+  border-radius: 5px;
+  box-sizing: border-box;
+
+}
+
+.advice__header {
+  width: 100%;
+  background-image: url(../../images/Group\ 907.svg);
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color:rgba(2, 141, 216, 0.25);
+}
+
+@media screen and (min-width: 586px) {
+  .advice__header {
+    display: none;
+
+  }
+}
+@media screen and (max-width: 586px) {
+  .advice__image {
+    display: none;
+
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .advice {
+    max-width: 768px;
+
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .advice {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+}

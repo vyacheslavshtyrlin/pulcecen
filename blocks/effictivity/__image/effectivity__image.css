@@ -1,0 +1,14 @@
+.effectivity__image {
+}
+
+
+@media screen and (max-width: 1800px) {
+  .effectivity__image {
+    position: absolute;
+    z-index: -1;
+    right: -5%;
+    bottom: -5%;
+    width: 200px;
+
+  }
+}

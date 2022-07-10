@@ -1,0 +1,25 @@
+.promotion__caption {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+
+  border-bottom: 2px solid #028DD8;
+
+  color: #8F9EB2;
+}
+
+@media screen and (max-width: 586px) {
+  .promotion__caption {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    border-bottom: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

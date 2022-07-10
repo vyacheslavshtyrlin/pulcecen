@@ -1,0 +1,6 @@
+.sidebar__menu {
+  display: none;
+}
+.sidebar__menu_active {
+  display: block;
+}

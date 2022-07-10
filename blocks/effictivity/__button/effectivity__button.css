@@ -1,0 +1,11 @@
+.effectivity__button {
+  width: 350px;
+}
+
+@media screen and (max-width: 586px) {
+  .effectivity__button {
+    width: 100%;
+
+
+  }
+}

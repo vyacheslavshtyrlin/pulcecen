@@ -1,0 +1,13 @@
+.promotion__paragraph {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+
+  /* gray_text */
+
+  color: #5E7491;
+}

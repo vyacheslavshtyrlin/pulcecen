@@ -1,0 +1,29 @@
+.effectivity {
+  background: #FFFFFF;
+  border: 1.05376px solid #F2F4F7;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 5.26882px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr auto;
+  height: 275px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding: 40px 30px;
+}
+
+
+@media screen and (max-width: 1800px) {
+  .effectivity {
+    grid-template-columns: 1fr;
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .effectivity {
+    height: 355px;
+    box-sizing: border-box;
+  }
+}

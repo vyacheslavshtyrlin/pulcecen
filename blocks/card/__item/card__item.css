@@ -1,0 +1,7 @@
+.card__item {
+  margin-bottom: 10px;
+}
+
+.card__item:last-of-type {
+  margin-bottom: 0;
+}

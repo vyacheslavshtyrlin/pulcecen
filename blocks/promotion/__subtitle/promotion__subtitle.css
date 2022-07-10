@@ -1,0 +1,22 @@
+.promotion__subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+  margin-bottom: 20px;
+  margin-top: 0;
+
+
+  color: #5E7491;
+}
+
+@media screen and (max-width: 586px) {
+  .promotion__subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+}
+

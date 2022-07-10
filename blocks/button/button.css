@@ -1,0 +1,20 @@
+.button {
+  background: #028DD8;
+  /* 2 */
+  color: white;
+  box-shadow: 0px 4px 20px rgba(68, 118, 145, 0.1);
+  border-radius: 5px;
+  height: 56px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.02em;
+  border: none;
+  outline: none;
+  padding: 0;
+}

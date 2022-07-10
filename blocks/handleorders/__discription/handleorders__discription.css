@@ -1,0 +1,20 @@
+.handleorders__discription {
+  box-sizing: border-box;
+  padding: 30px 30px 40px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1860px) {
+  .handleorders__discription {
+    padding: 15px 15px 20px;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .handleorders__discription {
+    padding: 10px;
+  }
+}
+
+

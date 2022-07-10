@@ -1,0 +1,29 @@
+.article__container {
+  display: block;
+  width: 351px;
+  height: 431px;
+  background: #FFFFFF;
+  padding: 40px 40px 0;
+  box-sizing: border-box;
+  position: relative;
+
+  border: 1.3546px solid #F2F4F7;
+  /* стандарт */
+  margin-right: 40px;
+  box-shadow: 0px 4px 4px rgba(68, 118, 145, 0.16);
+  border-radius: 5.4184px;
+  cursor: pointer;
+  color: #013A59;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 586px) {
+  .article__container {
+    width: 282px;
+    padding: 20px 20px 0;
+    margin-right: 0;
+
+
+  }
+}

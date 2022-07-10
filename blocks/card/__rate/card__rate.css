@@ -1,0 +1,19 @@
+.card__rate {
+  background: rgba(2, 141, 216, 0.1);
+  border-radius: 30px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  width: 279px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  padding-left: 36px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  color: #028DD8;
+  margin-bottom: 30px;
+}

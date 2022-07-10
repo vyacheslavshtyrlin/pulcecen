@@ -1,0 +1,6 @@
+.article__image {
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+  width: 100%;
+}

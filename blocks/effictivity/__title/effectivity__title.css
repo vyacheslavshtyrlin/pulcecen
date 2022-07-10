@@ -1,0 +1,24 @@
+.effectivity__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #028DD8;
+  margin: 0;
+};
+
+
+@media screen and (max-width: 1280px) {
+  .effectivity__title {
+    font-size: 16px;
+
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .effectivity__title {
+    font-size: 14px;
+
+  }
+}

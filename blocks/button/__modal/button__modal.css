@@ -1,0 +1,20 @@
+.button__modal {
+  width: 294px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #028DD8;
+  background-color: transparent;
+  border: 2px solid #028DD8;
+  filter: drop-shadow(0px 10px 20px rgba(2, 141, 216, 0.25));
+  border-radius: 8px;
+
+}

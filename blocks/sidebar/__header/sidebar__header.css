@@ -1,0 +1,29 @@
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  background: #028DD8;
+  height: 80px;
+  padding: 30px 20px 30px 30px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar__header_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 586px) {
+  .sidebar__header_mobile {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 0;
+    height: 52px;
+
+
+
+
+
+  }
+}

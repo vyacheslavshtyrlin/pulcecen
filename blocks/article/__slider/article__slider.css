@@ -1,0 +1,21 @@
+.article__slider {
+  display: flex;
+  flex-direction: row;
+  margin-top: 28px;
+  margin-bottom: 80px;
+  position: relative;
+  width: 1955px;
+  left: 0;
+  transition: all ease 1s;
+}
+
+@media screen and (max-width: 586px) {
+  .article__slider {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 351px);
+    gap: 20px;
+    width: 99%;
+}
+
+
+}

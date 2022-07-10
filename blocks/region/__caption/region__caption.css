@@ -1,0 +1,12 @@
+.region__caption {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 169% */
+  margin: 0;
+  /* dark_blue */
+
+  color: #5E7491;
+}

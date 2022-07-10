@@ -1,0 +1,22 @@
+.article__slider_arrow {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  cursor: pointer;
+  top: 45%;
+  right: -33px;
+  border-radius: 73.1484px;
+  background-color: #028DD8;
+  background-image: url('../../../../images/Arrow\ 6.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+@media screen and (max-width: 586px) {
+  .article__slider_arrow {
+    display: none;
+}
+
+
+}

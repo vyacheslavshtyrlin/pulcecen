@@ -1,0 +1,15 @@
+.plan__discription {
+  background: #F2FBFF;
+  padding: 40px;
+
+}
+
+
+@media screen and (max-width: 1280px) {
+  .plan__discription {
+    padding: 20px
+
+  }
+}
+
+

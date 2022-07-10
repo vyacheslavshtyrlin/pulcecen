@@ -1,0 +1,13 @@
+.promotion_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 586px) {
+  .promotion_mobile {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-color: white;
+    gap: 20px;
+  }
+}

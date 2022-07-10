@@ -1,0 +1,15 @@
+.promotion__question {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+
+  /* dark_blue */
+
+  color: #013A59;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}

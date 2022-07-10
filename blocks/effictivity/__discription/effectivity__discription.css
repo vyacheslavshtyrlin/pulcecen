@@ -1,0 +1,18 @@
+.effectivity__discription {
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1860px) {
+  .effectivity__discription {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .effectivity__discription {
+    grid-template-rows: auto 4fr 1fr;
+    height: 100%;
+  }
+}

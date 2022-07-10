@@ -1,0 +1,17 @@
+.region__list {
+  margin-top: 20px;
+  color: #5E7491;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+  /* gray_text */
+
+}

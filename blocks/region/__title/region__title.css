@@ -1,0 +1,15 @@
+.region__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  /* identical to box height */
+
+
+  /* dark_blue */
+
+  color: #013A59;
+}

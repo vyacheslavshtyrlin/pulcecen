@@ -1,0 +1,25 @@
+.effectivity__caption {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 15px 0;
+  /* gray_text */
+
+  color: #5e7491;
+}
+
+@media screen and (max-width: 1280px) {
+  .effectivity__caption {
+    font-size: 16px;
+
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .effectivity__caption {
+    font-size: 14px;
+
+  }
+}

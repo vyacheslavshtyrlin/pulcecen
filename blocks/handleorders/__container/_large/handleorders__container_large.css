@@ -1,0 +1,22 @@
+.handleorders__container_large {
+  display: grid;
+  grid-template-columns: 58px 2fr 1fr;
+  min-height: 171px;
+  background: #FFFFFF;
+  border: 1px solid #F2F4F7;
+  box-shadow: 0px 4px 4px rgba(68, 118, 145, 0.16);
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 1700px) {
+  .handleorders__container_large {
+    grid-template-rows: 38px 1fr;
+    grid-template-columns: none;
+  }
+}
+
+
+

@@ -1,0 +1,18 @@
+.promotional__modal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 34px;
+  align-items: flex-start;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+
+  /* dark_blue */
+
+  color: #013A59;
+}

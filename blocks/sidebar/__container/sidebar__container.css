@@ -1,0 +1,27 @@
+.sidebar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 26px;
+  box-sizing: border-box;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+  cursor: pointer;
+  background: #FFFFFF;
+  text-decoration: none;
+
+  color: #013A59;
+};
+
+
+.sidebar__container:hover {
+  background-color: blue;
+}
+

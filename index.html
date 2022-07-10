@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+    </style>
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Пульс Цен</title>
+</head>
+<body class="root">
+  <div class="sidebar__mobile">
+    <div class="sidebar__header_mobile">
+      <img src="./images/кнопка вызова меню.svg" class="sidebar__toolbar">
+      <div class="sidebar__container_mobile">
+        <p class="sidebar__caption">Управление компанией</p>
+      </div>
+    </div>
+
+    <div class="sidebar__menu">
+      <div class="sidebar__container">
+        <div class="sidebar__menu" style="display: flex">
+          <img src="./images/message147.svg" class="sidebar__icon">
+          <a class="sidebar__link">Главная</a>
+        </div>
+        <img src="./images/arrowsidebar16.jpg">
+      </div>
+      <div class="sidebar__container">
+        <div class="sidebar__menu" style="display: flex">
+          <img src="./images/settingssvg.svg" class="sidebar__icon">
+          <a class="sidebar__link">Настройки компании</a>
+        </div>
+        <img src="./images/arrowsidebar16.jpg">
+      </div>
+      <div class="sidebar__container">
+        <div class="sidebar__menu" style="display: flex">
+          <img src="./images/packedge.svg" class="sidebar__icon">
+          <a class="sidebar__link">Размещение <br> товаров и услуг</a>
+        </div>
+        <img src="./images/arrowsidebar16.jpg">
+      </div>
+      <div class="sidebar__container">
+        <div class="sidebar__menu" style="display: flex">
+          <img src="./images/Frame 149.svg" class="sidebar__icon">
+          <a class="sidebar__link">Редактор сайта</a>
+        </div>
+        <img src="./images/arrowsidebar16.jpg">
+      </div>
+      <div class="sidebar__container">
+        <div class="sidebar__menu" style="display: flex">
+          <img src="./images/Frame 150.svg" class="sidebar__icon">
+          <a class="sidebar__link">Наполнение сайта</a>
+        </div>
+        <img src="./images/arrowsidebar16.jpg">
+      </div>
+      <div class="sidebar__container">
+        <div class="sidebar__menu" style="display: flex">
+          <img src="./images/Frame151.svg" class="sidebar__icon">
+          <a class="sidebar__link">Рекламный кабинет</a>
+        </div>
+        <img src="./images/arrowsidebar16.jpg">
+      </div>
+      <div class="sidebar__container">
+        <div class="sidebar__menu" style="display: flex">
+          <img src="./images/Group 152.svg" class="sidebar__icon">
+          <a class="sidebar__link">Аналитика</a>
+        </div>
+        <img src="./images/arrowsidebar16.jpg">
+      </div>
+      <div class="sidebar__container">
+        <div class="sidebar__menu" style="display: flex">
+          <img src="./images/Frame 153.svg" class="sidebar__icon">
+          <a class="sidebar__link">Интеграции</a>
+        </div>
+        <img src="./images/arrowsidebar16.jpg">
+      </div>
+      <div class="sidebar__container">
+        <div class="sidebar__menu" style="display: flex">
+          <img src="./images/Frame 82.svg" class="sidebar__icon">
+          <a class="sidebar__link">Материалы <br> о развитии бизнеса</a>
+        </div>
+        <img src="./images/arrowsidebar16.jpg">
+      </div>
+    </div>
+  </div>
+  <aside class="sidebar">
+    <div class="sidebar__header">
+      <p class="sidebar__caption">Управление компанией</p>
+      <img src="./images/Group 481.svg" class="sidebar__image">
+    </div>
+    <div class="sidebar__container">
+      <div class="sidebar__menu" style="display: flex">
+        <img src="./images/message147.svg" class="sidebar__icon">
+        <a class="sidebar__link">Главная</a>
+      </div>
+      <img src="./images/arrowsidebar16.jpg">
+    </div>
+    <div class="sidebar__container">
+      <div class="sidebar__menu" style="display: flex">
+        <img src="./images/settingssvg.svg" class="sidebar__icon">
+        <a class="sidebar__link">Настройки компании</a>
+      </div>
+      <img src="./images/arrowsidebar16.jpg">
+    </div>
+    <div class="sidebar__container">
+      <div class="sidebar__menu" style="display: flex">
+        <img src="./images/packedge.svg" class="sidebar__icon">
+        <a class="sidebar__link">Размещение <br> товаров и услуг</a>
+      </div>
+      <img src="./images/arrowsidebar16.jpg">
+    </div>
+    <div class="sidebar__container">
+      <div class="sidebar__menu" style="display: flex">
+        <img src="./images/Frame 149.svg" class="sidebar__icon">
+        <a class="sidebar__link">Редактор сайта</a>
+      </div>
+      <img src="./images/arrowsidebar16.jpg">
+    </div>
+    <div class="sidebar__container">
+      <div class="sidebar__menu" style="display: flex">
+        <img src="./images/Frame 150.svg" class="sidebar__icon">
+        <a class="sidebar__link">Наполнение сайта</a>
+      </div>
+      <img src="./images/arrowsidebar16.jpg">
+    </div>
+    <div class="sidebar__container">
+      <div class="sidebar__menu" style="display: flex">
+        <img src="./images/Frame151.svg" class="sidebar__icon">
+        <a class="sidebar__link">Рекламный кабинет</a>
+      </div>
+      <img src="./images/arrowsidebar16.jpg">
+    </div>
+    <div class="sidebar__container">
+      <div class="sidebar__menu" style="display: flex">
+        <img src="./images/Group 152.svg" class="sidebar__icon">
+        <a class="sidebar__link">Аналитика</a>
+      </div>
+      <img src="./images/arrowsidebar16.jpg">
+    </div>
+    <div class="sidebar__container">
+      <div class="sidebar__menu" style="display: flex">
+        <img src="./images/Frame 153.svg" class="sidebar__icon">
+        <a class="sidebar__link">Интеграции</a>
+      </div>
+      <img src="./images/arrowsidebar16.jpg">
+    </div>
+    <div class="sidebar__container">
+      <div class="sidebar__menu" style="display: flex">
+        <img src="./images/Frame 82.svg" class="sidebar__icon">
+        <a class="sidebar__link">Материалы <br> о развитии бизнеса</a>
+      </div>
+      <img src="./images/arrowsidebar16.jpg">
+    </div>
+    </aside>
+  <div class="page1">
+    <section class="orders">
+      <p class="orders__title">Заказы и отзывы</p>
+        <div class="plan">
+          <div class="plan__discription">
+            <div class="plan__container">
+              <span class="plan__caption">Тариф:</span>
+              <p class="plan__name">Платина+
+                <img class="plan__rate" src="./images/stars4.svg">
+              </p>
+              <a href="#scroll" class="plan__improve">
+                <img style="width: 25px; margin-right: 10px;" src="./images/Improve.svg">
+                Увеличить заказы</a>
+            </div>
+          </div>
+          <div class="plan__handler">
+            <div class="plan__buttons">
+              <a style="text-decoration: none;" target="_blank" href="https://novaya-99752367.pulscen.ru/users/contacts" class="plan__set-manager">Назначить
+                менеджеров
+                на заказы
+                <img class="button__arrow" src="./images/Arrow 2.svg"></img>
+              </a>
+              <a target="_blank" style="text-decoration: none;" href="https://novaya-99752367.pulscen.ru/users/contacts" class="plan__set-manager">Подключить <br>
+                sms-оповещение
+                о заказах
+                <img class="button__arrow" src="./images/Arrow 2.svg"></img>
+              </a>
+            </div>
+          </div>
+      </div>
+      <div class="advice">
+        <div class="advice__header"></div>
+        <img class="advice__image" src="./images/question.svg">
+        <div class="advice__caption">
+          <p style="margin: 0;">
+            Покупатели заказывают ваши товары в рубриках Пульса цен. <br>
+            Некоторые клиенты переходят из каталога на ваш сайт и оформляют заказ там. <br>
+            Все заказы и вопросы по товарам вы видите в Личном кабинете.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="handleorders__section">
+      <h2 class="section__title">Работа с заказами</h2>
+      <div class="handleorders__large">
+        <a target="_blank" href="https://www.pulscen.ru/dashboard/seller/orders?unprocessed=true" class="handleorders__container_large">
+          <img class="handleorders__icon" src="./images/иконка заказ.svg">
+          <div  class="handleorders__discription">
+            <p class="handleorders__title">Ваши заказы</p>
+            <p class="handleorders__caption">Посмотрите и обработайте заказы
+              от покупателей с Пульса цен.</p>
+          </div>
+          <img class="handleorders__image2" src="./images/иллюстрация заказа.svg">
+      </a>
+      <a target="_blank" href="https://www.pulscen.ru/dashboard/seller/appeal/orders" class="handleorders__container_large">
+        <img class="handleorders__icon" src="./images/иконка заказ.svg">
+        <div class="handleorders__discription">
+          <p class="handleorders__title">Ваши потенциальные покупатели</p>
+          <p class="handleorders__caption">Узнайте, кто смотрел контакты вашей компании,
+            и отправьте им спецпредложение.</p>
+        </div>
+        <img class="handleorders__image2" src="./images/иллюстрация покупатели.svg">
+    </a>
+      </div>
+      <div class="handleorders">
+        <a target="_blank" href="https://novaya-99752367.pulscen.ru/communication_settings/edit" class="handleorders__container">
+          <img class="handleorders__icon" src="./images/иконка товаров.svg">
+          <div class="handleorders__discription">
+            <p class="handleorders__title">Настроить способы получения заказов
+            </p>
+            <p class="handleorders__caption">Выберите способы заказа товаров, <br> которые будут доступны для покупателей.</p>
+          </div>
+        </a>
+        <a href="https://novaya-99752367.pulscen.ru/users/contacts" target="_blank" class="handleorders__container">
+          <img class="handleorders__icon" src="./images/иконка менеджер.svg">
+          <div class="handleorders__discription">
+            <p class="handleorders__title">Назначить менеджеров на заказы
+            </p>
+            <p class="handleorders__caption">Выберите менеджеров, которые будут <br> отвечать за группу товаров или регион.</p>
+          </div>
+        </a>
+        <a href=" https://novaya-99752367.pulscen.ru/users/contacts" target="_blank" class="handleorders__container">
+          <img class="handleorders__icon" src="./images/иконка уведомления.svg">
+          <div class="handleorders__discription">
+            <p class="handleorders__title">Подключить sms-оповещение о заказах
+            </p>
+            <p class="handleorders__caption">Получайте sms о новых заказах
+              с Пульса цен.</p>
+          </div>
+        </a>
+    </section>
+    <section class="effectivity__section">
+      <h2>Повысить эффективность размещения</h2>
+        <div class="effectivity__container">
+          <div class='effectivity'>
+            <div id="scroll" class="effectivity__discription">
+              <h3 class="effectivity__title">Как поднять продажи на Пульсе цен</h3>
+              <p class="effectivity__caption">Подключите дополнительные возможности и сервисы, <br> чтобы получать больше покупателей.
+              </p>
+              <button class="button effectivity__button effectivity__button_plans">Подробнее о тарифах</button>
+            </div>
+            <img class="effectivity__image" src="./images/иллюстрация1.svg">
+          </div>
+          <div class='effectivity'>
+            <div class="effectivity__discription">
+              <h3 class="effectivity__title">Как поднять продажи на Пульсе цен</h3>
+              <p class="effectivity__caption" >Смотрите практические советы и читайте полезные <br> материалы о повышении продаж <br>
+                и онлайн-продвижении.
+              </p>
+              <button class="button effectivity__button effectivity__button_articles">Читать</button>
+            </div>
+            <img class="effectivity__image" src="./images/Frame 858.svg">
+          </div>
+        </div>
+    </section>
+    <section class="promotion__section">
+      <div class="promotion__slider_arrow"></div>
+      <div class="promotion_mobile">
+        <div class="promotion__discripton_mobile">
+          <img class="promotion__image" src="./images/калькулятор.svg">
+          <h3 class="promotion__title">Тариф “Бизнес”</h3>
+          <p class="promotion__caption">Продавайте товары и услуги в несколько регионов и подключайте полезные интеграции для более эффективного продвижения товаров и услуг</p>
+          <p class="promotion__subtitle">К возможностям тарифа Старт добавляются следующие услуги:</p>
+          <ul class="promotion__list">
+            <li class="promotion__list_item"><img class="promotion__icon" src="./images/галочка.svg">
+                    Неограниченное количество товаров
+              </li>
+            <li class="promotion__list_item"><img class="promotion__icon" src="./images/галочка.svg">
+                    От 1-го до 3-х дополнительных<br>
+                    регионов для продвижения
+              </li>
+              <li class="promotion__list_item"><img class="promotion__icon" src="./images/галочка.svg">
+                    Подключение и сопоставление до<br>
+                    5000 товаров
+                    с системами 1С, Мой <br> склад и YML</li>
+              <li class="promotion__list_item"><img class="promotion__icon" src="./images/галочка.svg">
+                    Модули онлайн-оплаты и доставки <br> и CRM Битрикс
+                </li>
+              </ul>
+        </div>
+        <div class="">
+          <button class="promotion__button">СЕРЕБРО<img class="card__image" src="./images/звезды1.svg"></button>
+          <button class="promotion__button">ЗОЛОТО<img class="card__image" src="./images/звезды1.svg"></button>
+          <button class="promotion__button">ПЛАТИНА<img class="card__image" src="./images/звезды1.svg"></button>
+
+        </div>
+      </div>
+      <div>
+        <h2 class="promotion__question">Как поднять продажи</h2>
+        <p class="promotion__paragraph">Познакомиться с возможностями более высоких тарифов, чтобы выбрать выгодное размещение под свои задачи</p>
+      </div>
+      <div class="promotion">
+        <div class="slider">
+          <div class="slider__container">
+            <div class="promotion__container">
+              <img class="promotion__image" src="./images/калькулятор.svg">
+              <img class="promotion__illustration" src="./images/иллюстрация бизнес.svg">
+              <div class="promotion__discripton">
+                <h3 class="promotion__title">Тариф “Бизнес”</h3>
+                <p class="promotion__caption">Продавайте товары и услуги <br>
+                в несколько регионов и подключайте <br> полезные интеграции <br> для более эффективного продвижения <br>
+                товаров и услуг</p>
+                </div>
+                <div class="promotion__abilities">
+                  <p class="promotion__subtitle">К возможностям тарифа Старт <br> добавляются следующие услуги:</p>
+                  <ul class="promotion__list">
+                    <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px" src="./images/галочка.svg">
+                            Неограниченное количество товаров
+                      </li>
+                    <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px " src="./images/галочка.svg">
+                            От 1-го до 3-х дополнительных<br>
+                            регионов для продвижения
+                      </li>
+                      <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px;" src="./images/галочка.svg">
+                            Подключение и сопоставление до<br>
+                            5000 товаров
+                            с системами 1С, Мой <br> склад и YML</li>
+                      <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px;" src="./images/галочка.svg">
+                            Модули онлайн-оплаты и доставки <br> и CRM Битрикс
+                        </li>
+                      </ul>
+                      </div>
+                      </div>
+                      <div class="card__container">
+                        <div class="card">
+                          <div style="pointer-events: none;">
+                            <div class="card__rate">СЕРЕБРО
+                              <img class="card__image" src="./images/звезды1.svg">
+                            </div>
+                            <ul class="card__list">
+                              <li class="card__item">Неограниченное количество товаров</li>
+                              <li class="card__item">Услуга “Мегасайт Профи”</li>
+                              <li class="card__item">1 дополнительный регион продаж</li>
+                              </ul>
+                          </div>
+                            <button onclick="" class="button card__button">
+                              <a style="  text-decoration: none;
+                              color: white;" href="https://ekb.pulscen.ru/about/packets">Выбрать</a>
+                            </button>
+                            </div>
+                            <div class="card">
+                              <div style="pointer-events: none;">
+                                <div class="card__rate">ЗОЛОТО
+                                  <img class="card__image" src="./images/звезды2.svg">
+                                </div>
+                                <ul class="card__list">
+                                  <li class="card__item">Выше пакета "Серебро" в товарном каталоге</li>
+                                  <li class="card__item">Неограниченное количество товаров</li>
+                                  <li class="card__item">Услуга “Мегасайт Профи”</li>
+                                  <li class="card__item">2 дополнительных региона продаж</li>
+                                  </ul>
+                              </div>
+                              <button class="button card__button">
+                                <a style="  text-decoration: none;
+                                color: white;" href="https://ekb.pulscen.ru/about/packets">Выбрать</a>
+                              </button>
+                            </div>
+                            <div class="card">
+                              <div style="pointer-events: none;">
+                                <div class="card__rate">ПЛАТИНА
+                                  <img class="card__image" src="./images/звезды3.svg">
+                                </div>
+                                <ul class="card__list">
+                                  <li class="card__item">Выше пакета "Золото" в товарном каталоге</li>
+                                  <li class="card__item">Неограниченное количество товаров</li>
+                                  <li class="card__item">Услуга “Мегасайт Профи”</li>
+                                  <li class="card__item">3 дополнительных региона продаж</li>
+                                  <li class="card__item">Размещение товаров на площадках Пульс цен <br> по всей России <br> без приоритета.</li>
+                                  </ul>
+                              </div>
+                              <button class="button card__button">
+                                <a style="  text-decoration: none;
+                                color: white;" href="https://ekb.pulscen.ru/about/packets">Выбрать</a>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="slider__container">
+                          <div class="promotion__container">
+                            <img class="promotion__image" src="./images/калькулятор.svg">
+                            <img class="promotion__illustration" src="./images/иллюстрация бизнес.svg">
+                            <div class="promotion__discripton">
+                              <h3 class="promotion__title">Тариф “Всё включено”</h3>
+                              <p class="promotion__caption">Полный комплекс услуг по продвижению <br> бизнеса в интернете для наилучших <br> результатов.
+                              </div>
+                              <div class="promotion__abilities">
+                                <ul class="promotion__list">
+                                  <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px" src="./images/галочка.svg">
+                                    Целевые пользователи увидят <br> ваше предложение на первой странице <br> Яндекс и Google                                    </li>
+                                  <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px " src="./images/галочка.svg">
+                                    Рост трафика и заказов                                    </li>
+                                    <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px;" src="./images/галочка.svg">
+                                      Доступ к базе заявок сервиса "Закупки"
+                                      <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px;" src="./images/галочка.svg">
+                                        Клиенты из выбранных регионов
+                                      </li>
+                                      <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px;" src="./images/галочка.svg">
+                                        Полная проработка страниц сайта <br> и товарных рубрик                                      </li>
+                                      <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px;" src="./images/галочка.svg">
+                                        Посадочные страницы для <br> рекламных компаний кампаний                                      </li>
+                                      <li class="promotion__list_item"><img style="padding-right: 20px; width: 24px;" src="./images/галочка.svg">
+                                        Доступ ко всем сервисам <br> интеграции                                      </li>
+                                    </ul>
+                                    </div>
+                                    </div>
+                                    <div class="card__container">
+                                      <div class="card">
+                                        <div style="pointer-events: none;">
+                                          <div class="card__rate">СЕРЕБРО
+                                            <img class="card__image" src="./images/звезды1.svg">
+                                          </div>
+                                          <ul class="card__list">
+                                            <li class="card__item">Неограниченное количество товаров*</li>
+                                            <li class="card__item">7 городов на приоритетном <br> размещении</li>
+                                            <li class="card__item">Услуга “Мегасайт Профи”</li>
+                                            <li class="card__item">Услуга «Турбопоиск» <br> на 3 месяца (1 группа товаров)</li>
+                                            <li class="card__item">Размещение <br> товаров на площадках Пульс цен по <br> всей России без приоритета</li>
+                                            <li class="card__item">Включены все сервисы <br> интеграции</li>
+                                            <li class="card__item">Платный SSL-сертификат.</li>
+
+                                            </ul>
+                                        </div>
+                                          <button class="button card__button">
+                                            <a style="  text-decoration: none;
+                                            color: white;" href="https://ekb.pulscen.ru/about/packets">Выбрать</a>
+                                          </button>
+                                          </div>
+                                          <div class="card">
+                                            <div style="pointer-events: none;">
+                                              <div class="card__rate">ЗОЛОТО
+                                                <img class="card__image" src="./images/звезды2.svg">
+                                              </div>
+                                              <ul class="card__list">
+                                                <li class="card__item">Выше пакета "Серебро" в товарном каталоге</li>
+                                                <li class="card__item">Неограниченное <br> количество товаров</li>
+                                                <li class="card__item">7 городов на приоритетном размещении</li>
+                                                <li class="card__item">Услуга “Мегасайт Профи”</li>
+                                                <li class="card__item">Услуга «Турбопоиск» <br> на 3 месяца (2 группы товаров)</li>
+                                                <li class="card__item">Размещение товаров на <br> площадках Пульс цен по <br> всей России без приоритета</li>
+                                                <li class="card__item">Включены все сервисы <br> интеграции</li>
+                                                <li class="card__item">Платный SSL-сертификат.</li>
+
+                                                </ul>
+                                            </div>
+                                            <button class="button card__button">
+                                              <a style="  text-decoration: none;
+                                              color: white;" href="https://ekb.pulscen.ru/about/packets">Выбрать</a>
+                                            </button>
+                                          </div>
+                                          <div class="card">
+                                            <div style="pointer-events: none;">
+                                              <div class="card__rate">ПЛАТИНА
+                                                <img class="card__image" src="./images/звезды3.svg">
+                                              </div>
+                                              <ul class="card__list">
+                                                <li class="card__item">Выше пакета "Золото" <br> в товарном каталоге</li>
+                                                <li class="card__item">Неограниченное <br> количество товаров</li>
+                                                <li class="card__item">7 городов на <br> приоритетном размещении</li>
+                                                <li class="card__item">Услуга “Мегасайт Профи”</li>
+                                                <li class="card__item">Услуга «Турбопоиск» на 3 <br> месяца (3 группы товаров) </li>
+                                                <li class="card__item">Размещение товаров на <br> площадках Пульс цен по <br> всей России <br> без приоритета.</li>
+                                                <li class="card__item">Включены все сервисы <br> интеграции</li>
+                                                <li class="card__item">Платный SSL-сертификат.</li>
+                                                </ul>
+                                            </div>
+                                            <button class="button card__button">
+                                              <a style="  text-decoration: none;
+                                              color: white;" href="https://ekb.pulscen.ru/about/packets">Выбрать</a>
+                                            </button>
+                                          </div>
+                                        </div>
+                                      </div>
+                      <div class="region" style>
+                        <div class="region__container">
+                          <div class="region__block">
+                            <h3 class="region__title">Вся Россия</h3>
+                            <p class="region__caption" style="color: #013A59;">Размещение товаров и услуг в каталоге Пульс цен по всей России. <br> Привлекайте покупателей во всех регионах страны.</p>
+                          </div>
+                          <div class="region__block2">
+                            <span class="region__caption" style="font-weight: 600;
+                            font-size: 18px;
+                            line-height: 30px;
+                            ">Кому подходит:</span>
+                            <p class="region__caption">Компаниям, имеющим региональные представительства в разных городах,<br> или тем, кто готов продавать и доставлять в другие регионы из своего.</p>
+                          </div>
+                          <div class="region__block1">
+                            <span class="region__caption" style="font-weight: 600;">Основные преимущества:</span>
+                            <div class="region__list">
+                              <div style="margin-right: 60px">
+                                <p class="region__item">Прирост трафика, увеличение заявок</p>
+                                <p class="region__item">Привлечение покупателей со всей России</p>
+                                <p class="region__item">Продажа без посредников</p>
+                                <p class="region__item">Формирование ниши продаж</p>
+                              </div>
+                              <div>
+                                <p class="region__item">Выход на новые рынки сбыта</p>
+                                <p class="region__item">Увеличение доли рынка</div>
+                                <p class="region__item">Повышение узнаваемости компании и доверия клиентов</p>
+                              </div>
+                            </div>
+                        </div>
+                        <img src="./images/иллюстрация «Вся Россия».svg">
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="promotional__modal">
+                      <span>Ознакомьтесь с полным перечнем услуг, входящих в тарифы Пульса цен,<br> или закажите консультацию специалиста. </span>
+                      <button class="button button__modal">Заказать консультацию</button>
+                    </div>
+                    <div class="region">
+                      <div class="region__container">
+                        <div class="region__block">
+                          <h3 class="region__title">Региональное продвижение на Пульсе цен</h3>
+                          <p class="region__caption" style="color: #013A59;">Продавайте товары и услуги на группу городов или по всей Украине. <br> Получите больше возможностей для роста продаж.</p>
+                        </div>
+                        <div class="region__block2">
+                          <span class="region__caption" style="font-weight: 600;
+                          font-size: 18px;
+                          line-height: 30px;
+                          ">Кому подходит:</span>
+                          <p class="region__caption">Компаниям, имеющим региональные представительства в разных городах,<br> или тем, кто готов продавать и доставлять в другие регионы из своего.</p>
+                        </div>
+                        <div class="region__block1">
+                          <span class="region__caption" style="font-weight: 600;">Основные преимущества:</span>
+                          <div class="region__list">
+                            <div style="margin-right: 60px">
+                              <p class="region__item">Прирост трафика, увеличение заявок</p>
+                              <p class="region__item">Привлечение покупателей из других городов</p>
+                            </div>
+                            <div>
+                              <p class="region__item">Выход на новые рынки сбыта</p>
+                              <p class="region__item">Увеличение доли рынка</p>
+                            </div>
+                            <button class="button button__region">Подробнее о продвижении в регионы</button>
+                          </div>
+                        </div>
+                      </div>
+                        <img class="region__image" src="./images/иллюстрация (карта).svg">
+                      </div>
+                  </section>
+                  <section class="article">
+                    <div class="article__slider_arrow"></div>
+                    <h2>Информация о том как продвинуть свои товары</h2>
+                    <div style="overflow: hidden;">
+                      <div class="article__slider">
+                        <a class="article__container">
+                          <h3 class="article__title">Как понравиться поисковикам и покупателям </h3>
+                          <p class="article__caption">SEO, которое вам необходимо </p>
+                          <img src="./images/pic.svg" class="article__image">
+                        </a>
+                        <a href="https://www.pulscen.ru/about/blog/ts?utm_source=pulscen_article&utm_medium=article&utm_content=toolbar&utm_campaign=pulscen_blog_link_info_blog" target="_blank" class="article__container">
+                          <h3 class="article__title">Кейс по увеличению трафика для сложного бизнеса </h3>
+                          <p class="article__caption">Где взять трафик и клиентов, если в Яндексе по всему региону не более 100 запросов в месяц? </p>
+                          <img src="./images/pic2.svg" class="article__image">
+                        </a>
+                        <a href="https://www.pulscen.ru/about/blog/keis_business?utm_source=pulscen_article&utm_medium=article&utm_content=toolbar&utm_campaign=pulscen_blog_link_info_blog" target="_blank" class="article__container">
+                          <h3 class="article__title">Как расширить географию продаж без рисков + видео </h3>
+                          <p class="article__caption">Как избежать рисков и финансовых потерь, выходя на новые рынки. </p>
+                          <img src="./images/pic3.svg" class="article__image">
+                        </a>
+                        <a href="https://www.pulscen.ru/about/blog/geography_youtube?utm_source=pulscen_article&utm_medium=article&utm_content=toolbar&utm_campaign=pulscen_blog_link_info_blog" target="_blank" class="article__container">
+                          <h3 class="article__title">Как продавать товары в регионы </h3>
+                          <p class="article__caption">Как получать дополнительные заказы и новых клиентов
+                            из других регионов. </p>
+                          <img src="./images/pic4.svg" class="article__image">
+                        </a>
+                        <a class="article__container" href="https://www.pulscen.ru/about/blog/Kak_poluchat_zakazy_s_regionov?utm_source=pulscen_article&utm_medium=article&utm_content=toolbar&utm_campaign=pulscen_blog_link_info_blog" target="_blank">
+                          <h3 class="article__title">Как продвигать товары
+                            на поиске Яндекса и Google правильно </h3>
+                          <p class="article__caption">Контекст или SEO:
+                            что выбрать и надо ли выбирать? </p>
+                          <img src="./images/pic5.svg" class="article__image">
+                        </a>
+                        </div>
+                    </div>
+                    </section>
+                    <form class="form">
+                      <div class="form__caption">С вами свяжутся</div>
+                      <input type="number">
+                      <button class="button form__button">Отправить</button>
+                    </form>
+                </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

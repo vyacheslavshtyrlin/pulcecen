@@ -1,0 +1,18 @@
+.orders__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #013A59;
+  margin-bottom: 30px;
+  margin-top: 10px;
+
+}
+
+@media screen and (max-width: 586px) {
+  .orders__title {
+    display: none;
+
+  }
+}

@@ -1,0 +1,24 @@
+.handleorders__caption {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 8px 0 0 0;
+  color: #5E7491;
+}
+
+
+@media screen and (max-width: 1860px) {
+  .handleorders__caption {
+    font-size: 16px;
+
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .handleorders__caption {
+    display: none;
+
+  }
+}
