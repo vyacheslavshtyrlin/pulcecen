@@ -1,11 +1,13 @@
 .effectivity__discription {
   box-sizing: border-box;
+  margin: 40px 30px;
 }
 
 
 @media screen and (max-width: 1860px) {
   .effectivity__discription {
     display: grid;
+    margin: 20px 15px;
     grid-template-rows: 1fr;
   }
 }

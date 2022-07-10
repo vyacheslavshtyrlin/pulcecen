@@ -10,14 +10,12 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
-  padding: 40px 30px;
-}
+};
 
 
 @media screen and (max-width: 1800px) {
   .effectivity {
     grid-template-columns: 1fr;
-    padding: 20px 30px;
   }
 }
 
